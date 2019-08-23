@@ -1,1 +1,16 @@
+0- create a new text file:
+touch cli_homework.txt
 
+1.1- create a hidden folder:
+mkdir .name
+create a hidden file:
+touch .fileName
+
+1.2- display hidden folders in the cli:
+ls -a
+
+2-create multiple nested directories:
+mkdir -p one/two/three
+
+3-append a message to a file, without a newline character: 
+echo one >> cli_homework.txt && echo two >> cli_homework.txt
